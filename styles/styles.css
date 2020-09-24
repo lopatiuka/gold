@@ -922,7 +922,7 @@ footer .container div p {
     align-self: center;
   }
   .intro .container .form-container {
-    width: 480px;
+    width: 60%;
   }
   .intro .container .form-container img {
     width: 144;
@@ -932,14 +932,14 @@ footer .container div p {
     font-size: 20px;
   }
   .intro .container .form-container form {
-    width: 468px;
+    width: 568px;
   }
   .intro .container .form-container form input {
-    width: 458px;
+    width: 558px;
     height: 63px;
   }
   .intro .container .form-container form input[type=submit] {
-    width: 465px;
+    width: 565px;
     height: 70px;
   }
   .intro .container .form-container form .form-info {
@@ -964,7 +964,8 @@ footer .container div p {
     align-items: center;
   }
   .steps .container .how-works .steps-items .item {
-    width: 450px;
+    width: 550px;
+    height: 800px;
   }
   .steps .container .how-works .steps-items .item .item-header {
     width: 320px;
@@ -985,10 +986,11 @@ footer .container div p {
     font-size: 35px;
   }
   .faq .container .answers .answer-item {
-    width: 550px;
+    width: 650px;
+    height: auto;
   }
   .faq .container .answers .answer-item h2 {
-    font-size: 25px;
+    font-size: 35px;
   }
   .faq .container .answers .answer-item div {
     width: 450px;
@@ -998,13 +1000,14 @@ footer .container div p {
   }
   .faq .container .answers .answer-item div {
     width: 100%;
+    height: auto;
   }
   .faq .container .answers .answer-item div p {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .footer .nav .links-list li {
-    font-size: 7px;
+    font-size: 15px;
   }
 }
 
