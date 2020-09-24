@@ -981,3 +981,148 @@ footer{
         }
     }
 }
+
+@media ( max-device-width: 500px){
+    header{
+        .container{
+            justify-content: center;
+            .header-country{
+                flex-direction: row;
+                img{
+                    width: 30px;
+                    height: auto;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+                .exposure{
+                    font-size: 11px;
+                    p{
+                        color: white;
+                        margin-top: -10px;
+                    }
+                    span{
+                        width: 146px;
+                    }
+                }
+                .header-image{
+                    margin-left: 5px;
+                    margin-right: 5px;    
+                }
+            }
+        }
+    }
+
+    .intro{
+        .container{
+            .video-container{
+                width: 100%;
+                align-items: center;
+                .video-header{
+                    width: 100%;
+                    align-items: center;
+                    justify-content: center;
+                    h1{
+                        font-size: 50px;
+                    }
+                }
+
+                .video-caption{
+                    h2{
+                        font-size: 18px;
+                    }
+                }
+
+                .video{ 
+                    width: 90%;
+                    height: 500px;
+                    align-self: center;
+                }
+            }
+
+            .form-container{
+                width: 280px;
+                img{
+                    width: 144;
+                    height: 130;
+                }
+                h2{
+                    font-size: 20px;
+                }
+                form{
+                    width: 268px;
+                    input{
+                        width: 258px;
+                        height: 43px;
+                    }
+
+                    input[ type = submit]{
+                        width: 265px;
+                        height: 50px;
+                    }
+
+                    .form-info{
+                        width: 280px;
+                    }
+                }
+            }
+        }
+    }
+
+    .about{
+        height: auto;
+        .container{
+            width: 450px;
+            height: auto;
+            align-items: center;
+
+            div{
+                width: 400px;
+            }
+
+        }
+    }
+
+    .steps{
+        .container{
+            .how-works{
+                .steps-items{
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    .faq{
+        .container{
+            .faq-header{
+                font-size: 35px;
+            }
+            .answers{
+                .answer-item{
+                    width: 450px;
+                    h2{
+                        font-size: 25px;
+                    }
+                    div{
+                        width: 450px;
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer{
+        .nav{
+            .links-list{
+                li{
+                    font-size: 7px;
+                }
+            }
+        }
+    }
+}
